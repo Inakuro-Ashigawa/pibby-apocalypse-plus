@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/school-Gum/" zoom="0.7">
+	<sprite x="210" sprite="Happy/floor" y="-3" scale="2" name="floor"/>
+	<sprite x="210" y="-3" sprite="Sad/floor" alpha="0" scale="2" name="Sadfloor"/>
+	<gf x="1286" y="40.5"/>
+	<bf camxoffset="250" x="1264" camyoffset="-100" y="112.5"/>
+	<combo x="1271.5" y="328"/>
+	<dad camxoffset="400" x="-165" camyoffset="400" y="197.5"/>
+	<sprite x="227" sprite="Happy/Thingys" y="11" scale="2" name="Thingys" scrollx="1.1"/>
+	<sprite scale="2" name="wall" sprite="Happy/wall"/>
+	<sprite x="227" y="11" sprite="Sad/Thingys" alpha="0" scale="2" scrollx="1.1" name="SadThingys"/>
+	<sprite alpha="0" scale="2" sprite="Sad/wall" name="Sadwall"/>
+</stage>

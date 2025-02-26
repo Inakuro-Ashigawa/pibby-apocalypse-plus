@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Innocent Gumball.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Right0000" x="2088" y="0" width="976" height="1431" frameX="-709" frameY="-437" frameWidth="2071" frameHeight="2196"/>
+	<SubTexture name="Left0000" x="1109" y="0" width="979" height="1434" frameX="-340" frameY="-404" frameWidth="2071" frameHeight="2196"/>
+	<SubTexture name="Up0000" x="0" y="0" width="1109" height="1521" frameX="-502" frameY="-331" frameWidth="2071" frameHeight="2196"/>
+	<SubTexture name="Down0000" x="968" y="1521" width="970" height="1323" frameX="-733" frameY="-511" frameWidth="2071" frameHeight="2196"/>
+	<SubTexture name="Idle0000" x="0" y="1521" width="968" height="1424" frameX="-507" frameY="-410" frameWidth="2071" frameHeight="2196"/>
+	<SubTexture name="Still0000" x="3064" y="0" width="939" height="1431" frameX="-572" frameY="-403" frameWidth="2071" frameHeight="2196"/>
+</TextureAtlas>

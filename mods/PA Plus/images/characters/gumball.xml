@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gumball.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Down0000" x="897" y="1110" width="1161" height="860" frameX="-837" frameY="-1237" frameWidth="2741" frameHeight="3215"/>
+	<SubTexture name="Up0000" x="0" y="1110" width="897" height="1335" frameX="-980" frameY="-771" frameWidth="2741" frameHeight="3215"/>
+	<SubTexture name="Left0000" x="0" y="0" width="1149" height="1110" frameX="-410" frameY="-1008" frameWidth="2741" frameHeight="3215"/>
+	<SubTexture name="Right0000" x="1149" y="0" width="1237" height="1022" frameX="-1247" frameY="-1089" frameWidth="2741" frameHeight="3215"/>
+	<SubTexture name="Idle0000" x="2386" y="0" width="804" height="1090" frameX="-987" frameY="-1023" frameWidth="2741" frameHeight="3215"/>
+</TextureAtlas>

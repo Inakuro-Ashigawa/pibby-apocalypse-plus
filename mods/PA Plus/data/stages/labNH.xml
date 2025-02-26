@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/labNH/" zoom="1">
+	<sprite x="4" sprite="labshit" y="-37" scale="2" name="bgNh"/>
+	<sprite x="-300" scroll="1" sprite="bgnoherofull" y="-200" scale="1" name="bg"/>
+	<gf/>
+	<dad x="66" y="28"/>
+	<bf camxoffset="-130" camyoffset="-100"/>
+	<combo/>
+	<sprite x="-195" scroll="1" sprite="noherocutscenefirst" y="-400" scale="1.05" name="nhcutscene"/>
+</stage>

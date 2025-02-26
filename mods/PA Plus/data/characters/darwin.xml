@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="30" y="450" sprite="PA/darwind" scale="1.7" camx="260" camy="-90" isPlayer="true" icon="darwin" color="#FF784B">
+	<anim name="singRIGHT" anim="Darwin left" x="-58.4" y="-8.6" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Darwin right" x="65.6" y="-9.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Darwin down" x="-4.2" y="-49.2" fps="24" loop="false"/>
+	<anim name="singUP" anim="Darwin up" x="-24.2" y="50.6" fps="24" loop="false"/>
+	<anim name="idle" anim="Darwin Idle" x="0" y="0" fps="24" loop="true"/>
+</character>

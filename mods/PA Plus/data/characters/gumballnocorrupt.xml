@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-990" y="-430" sprite="gumballg" scale="0.3" camx="200" icon="gumballfake" color="#449EF9" holdTime="3">
+	<anim name="idle" anim="Idle" x="-140" y="-220" fps="15" loop="false"/>
+	<anim name="singUP" anim="Up" x="-141" y="-206" fps="18" loop="false"/>
+	<anim name="singDOWN" anim="Down" x="-145" y="-217" fps="18" loop="false"/>
+	<anim name="singLEFT" anim="Left" x="-153" y="-219" fps="18" loop="false"/>
+	<anim name="singRIGHT" anim="Right" x="-109" y="-200" fps="18" loop="false"/>
+	<anim name="Idle-alt" anim="Still" x="-140" y="-215" fps="24" loop="false"/>
+</character>

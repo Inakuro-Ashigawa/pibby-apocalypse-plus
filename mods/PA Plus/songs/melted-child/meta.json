@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 170,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -16667907,
+	"displayName": "Melted Child",
+	"icon": "Pibby Apocalypse/Gumball",
+	"name": "melted-child",
+	"color": "#01AAFD"
+}

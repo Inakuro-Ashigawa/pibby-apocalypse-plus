@@ -1,0 +1,5 @@
+<!DOCTYPE codename-mod-options>
+<!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
+<menu name="Extra Options" desc="Hides all hud elements and turns on BotPlay. Prefect for a treaser">
+	<checkbox id="teaser" name="teaser" />
+</menu>

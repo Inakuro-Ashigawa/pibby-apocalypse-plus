@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/FW/" name="void" zoom=".2">
+	<sprite x="0" scroll="0.6" sprite="void/void" y="-200" scale="2.5" name="bg"/>
+	<sprite x="0" scroll="1.1" sprite="void/Ilustracion_sin_titulo-4" y="-200" scale="2.5" name="rock"/>
+	<sprite x="0" scroll="1.1" sprite="void/Ilustracion_sin_titulo-5" y="-200" scale="2.5" name="rock2"/>
+	<sprite x="0" scroll="1.1" sprite="void/Ilustracion_sin_titulo-6" y="-200" scale="2.5" name="rock3"/>
+	<sprite x="-177" scrolly="0.85" sprite="void/Ilustracion_sin_titulo-2" y="-347" zoomFactor=".2" scale="2" name="house" scrollx="0.85"/>
+	<sprite x="0" scroll="1" sprite="void/Ilustracion_sin_titulo-3" y="-150" scale="2.5" name="platform"/>
+	<sprite scale="1.4" name="floor" sprite="school/floor"/>
+	<dad x="85" zoom="0.7" y="-237"/>
+	<boyfriend camy="450" x="970" zoom="0.7" y="0"/>
+	<sprite x="150" scroll="1.1" sprite="void/Ilustracion_sin_titulo-7" y="-200" scale="2.55" name="things"/>
+	<sprite x="10" y="0" sprite="school/Thingys" scale="1.4" name="thungssss"/>
+	<sprite x="0" y="0" sprite="school/wall" scale="1.4" name="wall"/>
+	<combo x="425.5" y="198.5"/>
+	<gf/>
+</stage>
