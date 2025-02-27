@@ -145,9 +145,16 @@ function update(elapsed:Float) {
 function onPlayerHit(event) {
     if (event.note.isSustainNote) return;
 
+    hudTxt.origin.set(700, -50);
     if(hudTxtTween != null) hudTxtTween.cancel();
-    hudTxt.angle = FlxG.random.float(-2.5,2.5);
+
+    hudTxt.angle = FlxG.random.float(-1.5,1.5);
     hudTxtTween = FlxTween.tween(hudTxt, {angle: 0}, 0.2, {onComplete: function(twn:FlxTween) {hudTxtTween = null;}});
+
+    hudTxt.scale.y = FlxG.random.float(1.085,1.045);
+    hudTxt.scale.x = FlxG.random.float(1.085,1.045);
+    hudTxtBopTween = FlxTween.tween(hudTxt.scale, {x: 1, y: 1}, 0.4, {onComplete: function(twn:FlxTween) {hudTxtBopTween = null;}});
+    hitShitfix = true;
 
     switch (event.rating) {
         case "sick": sicks++;

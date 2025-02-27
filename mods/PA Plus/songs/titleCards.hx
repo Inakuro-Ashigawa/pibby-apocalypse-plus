@@ -1,4 +1,5 @@
 import openfl.display.BlendMode;
+
 var card:FlxSprite;
 var curSong = PlayState.instance.curSong.toLowerCase();
 var selectedCardImagePath:String = "Extras/Title-Cards/" + curSong;
@@ -9,12 +10,12 @@ function postCreate(){
 	card.camera = camCinema;
     card.screenCenter();
     card.scale.set(.3,.3);
-    card.blend = 11;
+    card.blend = "multiply";
     add(card);
 }
 function showTitleCard(){
     trace("Worked");
-    FlxTween.tween(card, {alpha: 1}, 1, {ease: FlxEase.linear});
+    FlxTween.tween(card, {alpha: 1}, 1.5, {ease: FlxEase.linear});
     new FlxTimer().start(1, function(hello:FlxTimer) {
         glitchOut(card);
     });
@@ -26,4 +27,5 @@ function glitchOut(spr:FlxSprite, dontKill:Bool=false){
         });
     }
 }
-function update() card.color = dad.color;
+//ok but like why it needs to be like same color
+//function update() card.color = dad.color;

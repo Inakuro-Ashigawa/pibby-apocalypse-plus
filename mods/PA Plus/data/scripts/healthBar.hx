@@ -37,7 +37,7 @@ function postUpdate(elapsed){
     iconP1.x = 520;
     iconP2.x = 20;
 
-    iconP1.origin.set(100,200);
+    iconP1.origin.set(200,200);
     iconP2.origin.set(100,200);
 }
 function snap(f:Float, snap:Float){

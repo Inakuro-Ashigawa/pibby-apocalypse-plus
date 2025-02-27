@@ -1,6 +1,6 @@
-// Inakuro & NotBeep!!! :>
+// Inakuro & NotBeep!!! :>      
 public var keepShader:Bool = false;
-public var Invert = new CustomShader('INV');
+//public var Invert = new CustomShader('INV'); //lmao colortransform ...sowwy -w- -LRM
 public var funnidumb = new CustomShader('vcr');
 public var bloom = new CustomShader('Pibbey/bloom');
 public var glitches = new CustomShader("Pibbey/Glitch");

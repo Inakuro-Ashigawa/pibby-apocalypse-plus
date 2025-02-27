@@ -8,9 +8,9 @@ function postCreate(){
 	insert(members.indexOf(iconP1)+1, iconP3);
 
     if (curSong == "retcon" || curSong == "my-amazing-world"){
-        iconP3.setPosition(iconP1.x-20, iconP1.y+20);
-
+        iconP3.setPosition(iconP1.x-20, iconP1.y+10);
         iconP3.scale.set(0.8, 0.8);
+        iconP3.origin.set(100,100);
     } else {
         iconP3.setPosition(iconP1.x+350, iconP1.y);
     }
