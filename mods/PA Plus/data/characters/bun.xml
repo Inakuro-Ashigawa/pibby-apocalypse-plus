@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="50" y="350" sprite="bunban" scale="1.4" flipX="true" isPlayer="true" icon="bf" color="#04D4F9" isGF="false">
+	<anim name="idle" anim="bunban idle" x="-5" y="0" fps="12" loop="true"/>
+	<anim name="singUP" anim="bunban up0" x="-26" y="-48" fps="12" loop="false"/>
+	<anim name="singDOWN" anim="bunban down0" x="-36" y="-30" fps="12" loop="false"/>
+	<anim name="singLEFT" anim="bunban left0" x="-45" y="-36" fps="12" loop="false"/>
+	<anim name="singRIGHT" anim="bunban right0" x="31" y="-27" fps="12" loop="false"/>
+</character>

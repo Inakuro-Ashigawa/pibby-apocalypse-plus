@@ -26,7 +26,7 @@ var GlitchFloat1;
 var GlitchFloat2;
 function initializeCharShaders() {
     switch (dad.curCharacter) {
-        case "finn-R","gumballnocorrupt","skibidi-finn","jake":
+        case "finn-R","gumballnocorrupt","skibidi-finn","jake","bippy":
             GlitchFloat1 = FlxG.random.float(1, 2);
             GlitchFloat2 = FlxG.random.float(-1, -0.5);
         case "gumball":
