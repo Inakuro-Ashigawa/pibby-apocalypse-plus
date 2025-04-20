@@ -1,0 +1,1 @@
+if (curSong != 'no-hero') importScript("data/scripts/UI") else importScript("data/scripts/UIbutgood");

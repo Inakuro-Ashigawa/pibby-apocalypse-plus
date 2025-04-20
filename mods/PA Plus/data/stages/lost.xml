@@ -1,17 +1,11 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/lost/" zoom=".8">
+<stage folder="stages/lost/" zoom=".8" startCamPosY="-600" startCamPosX="1000">
 	<gf x="337" y="71"/>
+	<sprite scale="2" y="-150" sprite="skybudget" name="goodbg" scroll="0.7" zoomfactor="0"/>
+	<sprite scale="2" x="100" y="-100" sprite="bgbuget" name="goodhills" scrollx="0.5" scrolly="0.7" zoomfactor="-0.5"/>
+	<sprite scale="2" y="-100" sprite="treebuge" name="goodtress" scroll="0.8"zoomfactor="-0.1"/>
 	<combo x="743" y="545"/>
-	<sprite scale="2" sprite="goodbg" name="goodbg"/>
-	<sprite scale="2" sprite="goodhills" name="goodhills"/>
-	<sprite scale="2" sprite="goodground" name="goodground"/>
-	<sprite scale="1.4" y="100" sprite="goodtress" name="goodtress"/>
-	<sprite alpha="0" scale="2" sprite="badbg" name="badbg"/>
-	<sprite alpha="0" scale="2" sprite="badfire" name="badfire"/>
-	<sprite alpha="0" scale="2" sprite="badhills" name="badhills"/>
-	<sprite alpha="0" scale="2" sprite="badground" name="badground"/>
-	<sprite x="0" sprite="badtress" y="100" scale="1.4" alpha="0" scrollx="1.4" name="badtress"/>
-	<dad x="-217" camxoffset="400" y="300" camyoffset="-200"/>
-	<bf x="527" y="-100" camyoffset="200"/>
-	<sprite scale="2" sprite="vig" name="vig"/>
+	<sprite scale="2" sprite="groiundbug" name="goodground"/>
+	<dad x="-50" y="255" camxoffset="400" camyoffset="-200"/>
+	<bf x="537" y="-100" camyoffset="200"/>
 </stage>

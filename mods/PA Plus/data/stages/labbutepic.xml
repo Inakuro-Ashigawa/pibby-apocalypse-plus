@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom=".882" startCamPosY="400" startCamPosX="500" >
+	<gf x="365" alpha="0" y="13"/>
+	<sprite x="449" y="335" sprite="stages/labbutepic/labshit" scale="2" name="labshit"/>
+	<dad x="300" y="400"/>
+	<bf x="1000" y="350"/>
+	<combo x="833" y="600"/>
+</stage>

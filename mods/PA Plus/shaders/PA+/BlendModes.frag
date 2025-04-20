@@ -13,7 +13,7 @@ uniform float iTime;
 #define mainImage main
 
 
-uniform int blendMode = 2;
+uniform int blendMode = 12;
 
 
 vec3 multiply(in vec3 src, in vec3 dst)

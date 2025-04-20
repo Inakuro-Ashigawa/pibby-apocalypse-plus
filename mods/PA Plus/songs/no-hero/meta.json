@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "Pibby Apocalypse/finnfuck",
+	"difficulties": [
+		"hard"
+	],
+	"parsedColor": -1,
+	"customValues": {},
+	"color": "#FFFFFF",
+	"name": "no-hero",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "No Hero",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 150
+}

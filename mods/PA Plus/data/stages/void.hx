@@ -3,6 +3,7 @@ import openfl.geom.ColorTransform;
 importScript("data/scripts/iconP3");
 importScript("data/scripts/healthbar");
 
+public var platformCam:FlxCamera;
 var charColors = [0xff969494, 0xFFBFE5BA];
 var houseColors = [0xFF8f8f8f, 0xFF9ADA91];
 var rockColors = [0xFFbababa, 0xFFB8D4B5];
@@ -10,6 +11,7 @@ var coolThingColors = [0xFFc4c0c0, 0xFFC1CEAA];
 var velocityShitHehe:Int = 1;
 
 function postCreate(){
+    platformCam = new FlxCamera();
     camGame.addShader(funnidumb);
     
     camHUD.alpha = 0.001;
@@ -23,6 +25,8 @@ function postCreate(){
     gf.cameraOffset.set(-400,-200);
 
     fontShit = "Gumball";
+    add(platformCam, false);
+    platformCam.cameras = [camGame];
 }
 function create(){
     house.color = houseColors[0];
